@@ -2,6 +2,8 @@ MAC
 1 a. Set up git by installing Xcode Dev tools. Typing git -version opens a window which will install the dev tools needed for git
 1 b. Configure ~/.netrc or generate ssh keys : 
      ssh-keygen -t rsa -C "yash.datta@xxxxxxx"
+1 c. Edit global git config
+     git config --global --edit
 2. Download and install intellij idea
 
 3. Install brew : http://brew.sh/ ( /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" )
