@@ -4,6 +4,7 @@ MAC
      ssh-keygen -t rsa -C "yash.datta@xxxxxxx"
 1 c. Edit global git config
      git config --global --edit
+1 d. Place .vimrc 
 2. Download and install intellij idea
 
 3. Install brew : http://brew.sh/ ( /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" )
