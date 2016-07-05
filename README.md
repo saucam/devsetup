@@ -4,6 +4,8 @@ MAC
      ssh-keygen -t rsa -C "yash.datta@xxxxxxx"
 1 c. Edit global git config
      git config --global --edit
+     Set vim as git commit message editor
+     git config --global core.editor "vim"
 1 d. Place .vimrc (optionally install pathogen) 
 
 2. Download and install intellij idea
