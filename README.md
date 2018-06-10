@@ -35,3 +35,4 @@ Instead you should use
 8. Download scala, extract and put this in bash_profile :
 export SCALA_HOME="/Users/ydatta/Documents/scala-2.11.8"
 export PATH=$PATH:$SCALA_HOME/bin
+9. Install tmux config: https://github.com/tony/tmux-config 
