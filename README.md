@@ -46,3 +46,4 @@ export SCALA_HOME="/Users/ydatta/Documents/scala-2.11.8"
 export PATH=$PATH:$SCALA_HOME/bin
 ```
 9. Install tmux config: https://github.com/tony/tmux-config 
+10. Create global git ignore file : ```mkdir -p ~/.config/git/ignore``` and put ```.idea/``` into it.
