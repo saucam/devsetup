@@ -1,5 +1,11 @@
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
-export PATH=$JAVA_HOME/bin:$PATH
+alias java8='export JAVA_HOME=`/usr/libexec/java_home -v 1.8`'
+alias java11='export JAVA_HOME=`/usr/libexec/java_home -v 11`'
+
+# Load pyenv automatically
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 ## In case you install scala manually
 #export SCALA_HOME="/Users/ydatta/Documents/scala-2.11.8"
 #export SBT_HOME="/Users/ydatta/Documents/sbt"

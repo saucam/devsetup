@@ -47,3 +47,19 @@ export PATH=$PATH:$SCALA_HOME/bin
 ```
 9. Install tmux config: https://github.com/tony/tmux-config 
 10. Create global git ignore file : ```mkdir -p ~/.config/git/ignore``` and put ```.idea/``` into it.
+11. Install python using pyenv
+```
+brew install pyenv
+
+pyenv install --list
+
+pyenv install -v 3.7.7
+
+ls ~/.pyenv/versions/
+
+pyenv versions
+
+pyenv global 3.7.7
+git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
+```
+Update ```bash_profile``` or ```bashrc```    
