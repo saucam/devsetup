@@ -63,3 +63,8 @@ pyenv global 3.7.7
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 ```
 Update ```bash_profile``` or ```bashrc```    
+
+12. To allow any app to run without gatekeeper
+```
+xattr -d com.apple.quarantine "appname"
+```
